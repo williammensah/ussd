@@ -54,7 +54,7 @@ class UssdController extends Controller
                     break;
 
                 case ($ussdStringExploded[0] == 1 && $ussdStringExploded[1] == 1 && $level ==4):
-                        $response .= "Enter the location of your farm".PHP_EOL;
+                        $response .= "CON Enter the location of your farm".PHP_EOL;
                     break;
 
                 case ($ussdStringExploded[0] == 1 && $ussdStringExploded[1] == 1 && $level == 5):
